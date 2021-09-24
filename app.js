@@ -10,7 +10,7 @@ const session = require('express-session');
 const morgan = require('morgan');
 const app = express();
 
-dotenv.config({path: './config/config.env'});
+dotenv.config({path: './config/.env'});
 // passport configuratons
 // console.log(require);
 require('./config/passport')(passport);
